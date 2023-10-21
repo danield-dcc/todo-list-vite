@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: "100%";
+
+  flex-direction: "row";
+  margin-top: -2rem;
+  padding-inline: 5rem;
+  margin-bottom: 1rem;
+}
+.form button:hover {
+  background-color: var(--bue-100);
+}
+
+.inputButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bueDark-200);
+  height: 54px;
+  width: 90px;
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.inputButtonImg {
+  margin-left: 5px;
+}
+
+.input {
+  background-color: var(--gray-500);
+  height: 54px;
+  width: 634px;
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--gray-300);
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--gray-300);
+  opacity: 1; /* Firefox */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuItens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 45rem;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.created {
+  color: var(--bue-100);
+  margin-right: 5px;
+}
+
+.concluded {
+  color: var(--purple-100);
+  margin-right: 5px;
+}
+
+.counter {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperNumbers {
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-400);
+  width: 1.5rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+}
+
+.conterNumber{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperConcludedNumbers {
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-400);
+  width: 4rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+}
+
+.emptyTask {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.emptyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #333333;
+
+  height: 244px;
+  width: 736px;
+}
+
+.emptyTaskImg {
+  height: 56px;
+  width: 56px;
+  margin: 0 auto;
+}
+
+.tittle {
+  color: var(--gray-300);
+  font: "Inter";
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.subTittle {
+  color: var(--gray-300);
+  font: "Inter";
+  margin: 0 auto;
+}
